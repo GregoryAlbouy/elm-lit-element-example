@@ -1,9 +1,9 @@
 module Main exposing (Model, main)
 
 import Browser
-import Html exposing (Html, div, h1, img, text)
-import Html.Attributes exposing (class, src)
-import Path
+import CustomElements exposing (incrementingButton)
+import Html exposing (Html, div, h1, text)
+import Html.Attributes exposing (class)
 
 
 type alias Model =
@@ -23,14 +23,14 @@ viewWelcome : String -> Html msg
 viewWelcome message =
     div [ class "welcome" ]
         [ h1 [] [ text message ]
-        , img [ src (Path.img "elm-logo.svg") ] []
+        , incrementingButton [] []
         ]
 
 
 main : Program () Model msg
 main =
     Browser.document
-        { init = \_ -> ( "Hello, World!", Cmd.none )
+        { init = \_ -> ( "Elm + Web Components", Cmd.none )
         , update = \_ model -> ( model, Cmd.none )
         , subscriptions = \_ -> Sub.none
         , view = view
