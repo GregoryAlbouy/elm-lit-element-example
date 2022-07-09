@@ -1,13 +1,13 @@
-# elm-spa-starter
+# elm-web-components-example
 
-<a href="https://github.com/GregoryAlbouy/elm-spa-starter/actions">
+<a href="https://github.com/gregoryalbouy/elm-web-components-example/actions">
   <img
     alt="Build Status"
-    src="https://img.shields.io/github/workflow/status/gregoryalbouy/elm-spa-starter/Lint%20&%20Test%20&%20Build"
+    src="https://img.shields.io/github/workflow/status/gregoryalbouy/elm-web-components-example/Lint%20&%20Test%20&%20Build"
   />
 </a>
 
-Full environment setup for an Elm SPA application, including bundle, TypeScript, Sass, tests and dev server.
+Simple example of custom elements integration in an Elm application
 
 ## Get Started
 
