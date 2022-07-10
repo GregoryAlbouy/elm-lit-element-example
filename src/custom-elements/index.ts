@@ -1,10 +1,3 @@
-import { incrementingButtonDefinition } from "./IncrementingButton";
-import { ICustomElementDefinition } from "./typing";
+import { IncrementingButton } from "./IncrementingButton";
 
-const definitions: ICustomElementDefinition[] = [incrementingButtonDefinition];
-
-export function defineCustomElements() {
-  definitions.forEach(({ name, constructor, options }) => {
-    customElements.define(name, constructor, options);
-  });
-}
+export default [IncrementingButton];
