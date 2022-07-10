@@ -30,7 +30,7 @@ viewWelcome message =
 main : Program () Model msg
 main =
     Browser.document
-        { init = \_ -> ( "Elm + Web Components", Cmd.none )
+        { init = \_ -> ( "Elm + Lit Element", Cmd.none )
         , update = \_ model -> ( model, Cmd.none )
         , subscriptions = \_ -> Sub.none
         , view = view
