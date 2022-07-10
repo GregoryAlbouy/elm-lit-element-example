@@ -1,13 +1,13 @@
-# elm-web-components-example
+# elm-lit-elemnt-example
 
-<a href="https://github.com/gregoryalbouy/elm-web-components-example/actions">
+<a href="https://github.com/gregoryalbouy/elm-lit-element-example/actions">
   <img
     alt="Build Status"
-    src="https://img.shields.io/github/workflow/status/gregoryalbouy/elm-web-components-example/Lint%20&%20Test%20&%20Build"
+    src="https://img.shields.io/github/workflow/status/gregoryalbouy/elm-lit-element-example/Lint%20&%20Test%20&%20Build"
   />
 </a>
 
-Simple example of custom elements integration in an Elm application
+Simple example of LitElement integration in an Elm application
 
 ## Get Started
 
